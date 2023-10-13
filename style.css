@@ -63,4 +63,14 @@ header .btn-contato button {
 
 header .btn-contato button:hover  {
     box-shadow: 0px 0px 8px #00ff08;
+    
 }
+
+.img-topo-site img {
+    width: 300px; 
+    height: auto;
+    border-radius: 150px;
+    margin-top: 50px;
+}
+
+
