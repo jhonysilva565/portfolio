@@ -20,6 +20,10 @@ body {
     margin: 0 auto;
 }
 
+.flex {
+    display: flex;
+}
+
 header {
     padding: 40px 4%;
 }
@@ -73,4 +77,13 @@ header .btn-contato button:hover  {
     margin-top: 50px;
 }
 
+/* Topo do site: */
 
+section .topo-do-site {
+    padding: 40px 4%;
+}
+
+section .topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+}
