@@ -55,7 +55,7 @@ header nav ul li {
     padding: 0 40px;
 }
 
-header .btn-contato button {
+header .btn-contato button:hover {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
@@ -79,11 +79,45 @@ header .btn-contato button:hover  {
 
 /* Topo do site: */
 
-section .topo-do-site {
+section.topo-do-site {
     padding: 40px 4%;
 }
 
-section .topo-do-site .flex {
+section.topo-do-site .flex {
     align-items: center;
-    justify-content: center;
+    justify-content:    center;
+    gap: 90px;  /*é um espaçamento que existe entre os elementos */
+}
+
+.topo-do-site h1 {
+    color: #fff;
+    font-size: 34px;
+}
+
+.btnContato {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.txt-topo-site p{
+    color: #fff;
+}
+
+.txt-topo-site h1{
+    color: #fff;
 }
